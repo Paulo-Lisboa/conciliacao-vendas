@@ -93,7 +93,7 @@ def conciliar(df_op, df_pdv, cols_op, cols_pdv):
 # ============================
 st.set_page_config(page_title="Conciliação de Vendas", layout="wide")
 
-st.title("📊 Conciliação de Vendas - PDV x Operadora")
+st.title("📊 Conciliação de Vendas - PDV x Operadora V2")
 
 file_op = st.file_uploader("Upload Arquivo da Operadora", type=["xlsx"])
 file_pdv = st.file_uploader("Upload Arquivo do PDV", type=["xlsx"])
